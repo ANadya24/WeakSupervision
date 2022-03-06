@@ -1,0 +1,17 @@
+{
+  "out_path": "../out_masks/",
+  "seg_type": "DEF/GT/1000/",
+  "mask_pickle_name": "out.pkl",
+  "backbone": "resnet34",
+  "image_pickle_path": "../out_masks/Fluo-N2DL-HeLa/02_gt_images.pkl",
+  "image_path":"../data/",
+  "dataset":"Fluo-N2DL-HeLa",
+  "data_prefix": "",
+  "checkpoint_w_model": true,
+  "checkpoint_path": "../training/results/",
+  "checkpoint_name": "stage3.l.best_full.pth",
+  "device": "cuda:2",
+  "test": false,
+  "adjust_gamma": true,
+  "gamma": 0.7
+}

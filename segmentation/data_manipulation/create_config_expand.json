@@ -1,0 +1,19 @@
+{
+  "seg_type": "GT",
+  "dataset": "Fluo-C2DL-Huh7",
+  "data_path": "../",
+  "model_path": "../snapshots/Fluo-C2DL-Huh7/",
+  "checkpoint_name": "model.best",
+  "image_size": 256,
+  "neighbours_param": 1000,
+  "debug": false,
+  "expand_r": 0.1,
+  "num_seq": 2,
+  "margin": 12,
+  "device": "cuda:2",
+  "mode": "miss",
+  "bad_cells_limit": 5,
+  "save_prefix": "_miss_expand_best",
+  "seg_suffix": "",
+  "image_suffix": "_hist"
+}

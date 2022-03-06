@@ -1,0 +1,24 @@
+{
+    "data_path": "../data/Fluo-C2DL-Huh7/train/",
+    "data_path_val": "../data/Fluo-C2DL-Huh7/test/",
+    "batch_size": 16,
+    "num_epochs": 1000,
+    "load_epoch": 0,
+    "model_path": "",
+    "learning_rate": 1e-4,
+    "smooth": 0,
+    "data_shape": [
+        1,
+        256,
+        256
+    ],
+    "num_workers": 4,
+    "save_dir": "../snapshots/Fluo-C2DL-Huh7/",
+    "save_step": 50,
+    "image_dir": "../snapshots/Fluo-C2DL-Huh7/val_images/",
+    "log_dir": "../snapshots/Fluo-C2DL-Huh7/logs/",
+    "model_name": "unet",
+    "use_gpu": true,
+    "tensorboard": true,
+    "comments": ""
+}

@@ -1,0 +1,8 @@
+{
+  "dataset": "Fluo-N2DL-HeLa",
+  "type_seg": "GT/01",
+  "parameters_path": "../optuna/",
+  "binary_masks_path": "../out_masks/",
+  "mask_filename": "out.pkl",
+  "output_path": "../instance_masks/"
+}

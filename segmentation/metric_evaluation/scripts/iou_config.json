@@ -1,0 +1,12 @@
+{
+  "datasets": ["Fluo-N2DL-HeLa"],
+  "mask_types": ["DEF/GT/1000/"],
+  "save_directory": "../evaluation_results/",
+  "params_path": "../optuna/",
+  "image_path": "../out_masks/",
+  "image_pickle_name": "02_st_images.pkl",
+  "masks_path": "../out_masks/",
+  "mask_pickle_name": "out.pkl",
+  "margin": 50,
+  "init_image_path": "../data/"
+}

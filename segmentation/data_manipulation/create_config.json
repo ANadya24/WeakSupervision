@@ -1,0 +1,17 @@
+{
+  "seg_type": "GT",
+  "dataset": "Fluo-N2DH-GOWT1",
+  "data_path": "../",
+  "model_path": "../snapshots/Fluo-N2DH-GOWT1/",
+  "checkpoint_name": "model_380",
+  "image_size": 128,
+  "neighbours_param": 1000,
+  "debug": false,
+  "radius": 50,
+  "num_seq": 1,
+  "margin": 50,
+  "device": "cuda:2",
+  "mode": "miss",
+  "bad_cells_limit": 5,
+  "save_prefix": "_my_data"
+}
