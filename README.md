@@ -10,4 +10,4 @@ The code was written for Python 3.9.7.
 To run the code you need to install python packages listed in _requirements.txt_.
 
 ## Contact information
-n.anoshina@cs.msu.ru
+n.anoshina@cs.msu.ru, dsorokin@cs.msu.ru
